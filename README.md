@@ -1,1 +1,1 @@
-# stock-management-system
+# Sistema de Gerenciamento de Estoque
