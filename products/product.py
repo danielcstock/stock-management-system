@@ -9,5 +9,18 @@ class Product:
     def PrintInfo(self):
         print("Nome: " + self.name + "\nPreço: R$ " + str(self.price))
 
+# Ctrl + K / Ctrl + C = Comment
+# Ctrl + K / Ctrl + U = Uncomment
+    # def UpdateName
+
+    # def UpdateQuantity(self, newQuantity):
+
+    # def UpdatePrice
+
+    # def UpdateShipping
+
+
+
+
 produtoA = Product("Computador", 999.90, 10, 0.10, 100.00)
 produtoA.PrintInfo()
