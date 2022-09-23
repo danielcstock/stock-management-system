@@ -1,12 +1,13 @@
-name = "Notebook HP Intel Core i3 (Windows 98)"
-preço = "Apenas $9.999,60 á vista ou 12x de 2.000"
-Estoque = "10 unidades"
-Desconto = "50% "
-Frete = "Frete grátis para o sul do Brasil"
+class Product:
+    def __init__(self, name, price, quantity, discount, shipping):
+        self.name = name
+        self.price = price
+        self.quantity = quantity
+        self.discount = discount
+        self.shipping = shipping
 
+    def PrintInfo(self):
+        print("Nome: " + self.name + "\nPreço: R$ " + str(self.price))
 
-print("Nome: " + name)
-print("Preço: " + preço)
-print("Disponível:" + Estoque)
-print("Desconto de " + Desconto + " no Pix ou Boleto")
-print("Envio Rápido e " + Frete )
+produtoA = Product("Computador", 999.90, 10, 0.10, 100.00)
+produtoA.PrintInfo()
